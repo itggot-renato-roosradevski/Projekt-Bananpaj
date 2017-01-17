@@ -1,0 +1,24 @@
+html,body{
+    margin: 0;
+    padding:0;
+    max-width: 360px;
+    
+}
+
+
+.wrapper {
+    max-width: 360px; /* Ska flyttas till en mediaquery senare */
+    display: flex;
+    flex-direction: column;/* Ska flyttas till en mediaquery senare */
+    justify-content: center;
+}
+
+.main {
+}
+
+.pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}

@@ -1,19 +1,54 @@
-html,body{
-    margin: 0;
-    padding:0;
-    max-width: 360px;
-    
+body{
+    flex-direction: column;
+    display: flex;
+    font-family: sans-serif;
+    width:100%;
+    background-color: yellow;
+    margin:0; 
 }
 
-
+}
 .wrapper {
-    max-width: 360px; /* Ska flyttas till en mediaquery senare */
+    width:100%;
+}
+header {
+    text-align: center;
+    margin-top: 100px;
+}
+
+nav {
+    justify-content: center;
+    flex-direction: row;
     display: flex;
-    flex-direction: column;/* Ska flyttas till en mediaquery senare */
+    height: 100px;
+    background-color: white;
+    font-size: 50px; 
+    width: 100%;
+    position:fixed;
+    border-bottom: 1px solid black;
+}
+
+.navbar {
+    
+    width: calc(100%/3);
+    text-decoration: none;
+    color: hotpink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
 
 .main {
+    background-color: white;
+    margin: 20px;
+    text-shadow: 2px 2px hotpink;
+}
+
+.yolo {
+    padding: 20px;
+    padding-bottom: 0;
+
 }
 
 .pic{
@@ -21,4 +56,9 @@ html,body{
     margin-left: auto;
     margin-right: auto;
 
+}
+
+footer {
+    margin: 30px;
+    text-shadow: 2px 2px deeppink;
 }
